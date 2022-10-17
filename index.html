@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    <title>Formulário De Pesquisa</title>
+</head>
+
+<body>
+    <h1 class="titulo">Formulário de Pesquisa - Junior Martins</h1>
+    <p class="agradecimento">Obrigado por dedicar seu tempo para me ajudar!</p>
+    <form method="get">
+        <div>Nome</div>
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <div>Email</div>
+        <input type="email" name="email" placeholder="Digite seu email">
+        <div>Idade <div class="op">(opcional)</div>
+        </div>
+        <input type="number" name="idade" min="10" placeholder="Digite sua idade">
+        <div>Qual opção descreve sua função atual?</div>
+        <select name="funçao atual">
+            <option name="estudante" value="estudante">Estudante</option>
+            <option name="integral" value="integral">Trabalho em tempo integral</option>
+            <option name="estagio" value="estagio">Estágio em tempo integral</option>
+            <option name="nao dizer" value="nao dizer">Prefiro não dizer</option>
+            <option name="outros" value="outros">Outros</option>
+        </select>
+        <div class="recomendaria">Você recomendaria Junior Martins a um amigo?</div>
+        <input type="radio" name="recomendaçao" value="sim"><span> Sim</span><br>
+        <input type="radio" name="recomendaçao" value="não"><span> Não</span><br>
+        <input type="radio" name="recomendaçao" value="talvez"><span> Talvez</span>
+        <div class="favorito">Qual é o seu tema favorito?</div>
+        <select name="qualidades favoritas">
+            <option name="video" value="video">Vídeo Aulas</option>
+            <option name="projetos" value="projetos">Projetos</option>
+            <option name="comunidade" value="comunidade">Comunidade</option>
+            <option name="codigoaberto" value="codigoaberto">Código Aberto</option>
+        </select>
+        <div class="melhorias">Onde você gostaria de ver melhorias? <div class="marque">(marque todas que se aplicam)
+            </div>
+        </div>
+        <input type="checkbox" name="frontend" value="frontend"><span> Projetos Front-End</span><br>
+        <input type="checkbox" name="backend" value="backend"><span> Projetos Back-End</span><br>
+        <input type="checkbox" name="dados" value="dados"><span> Visualização De Dados</span><br>
+        <input type="checkbox" name="desafios" value="desafios"><span> Desafios</span><br>
+        <input type="checkbox" name="codigoaberto" value="codigoaberto"><span> Comunidade De Cógido Aberto</span><br>
+        <input type="checkbox" name="ajuda" value="ajuda"><span> Ajuda</span><br>
+        <input type="checkbox" name="videos" value="videos"><span> Vídeos Explicativos</span><br>
+        <input type="checkbox" name="encontros" value="encontros"><span> Encontros Presenciais</span><br>
+        <input type="checkbox" name="wiki" value="wiki"><span> Wiki</span><br>
+        <input type="checkbox" name="forum" value="forum"><span> Forum</span><br>
+        <input type="checkbox" name="cursos" value="cursos"><span> Cursos</span>
+        <div class="sugestao">Algum comentário ou sugestão?</div>
+        <textarea name="comentario" placeholder="Digite seu comentário/sugestão aqui"></textarea><br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+
+</html>
