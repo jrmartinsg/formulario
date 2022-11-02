@@ -1,5 +1,5 @@
 <h1>
-    Formulário De Pesquisa - <a href="https://jrmartinsg.github.io/formulario/" target="_blank">Clique e veja o Projeto Online</a>
+    Formulário De Pesquisa - <a href="https://formulario-jrmartinsg.vercel.app/" target="_blank">Clique e veja o Projeto Online</a>
 </h1>
 <p>
     Um formulário simples com referência do canal no youtube Attekita Dev.
@@ -21,5 +21,5 @@
 <h4>
     Obrigado pela visualização do meu projeto. <br>
     Estou sempre disposto a sugestões de melhorias!! <br><br>
-    <a href="https://jrmartinsg.github.io/formulario/" target="_blank">Clique e veja o Projeto Online</a>
+    <a href="https://formulario-jrmartinsg.vercel.app/" target="_blank">Clique e veja o Projeto Online</a>
 </h4>
